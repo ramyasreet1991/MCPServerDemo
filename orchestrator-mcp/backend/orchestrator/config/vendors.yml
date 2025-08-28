@@ -1,0 +1,5 @@
+vendors:
+  jira:
+    transport: "mock"
+  outlook:
+    transport: "mock"

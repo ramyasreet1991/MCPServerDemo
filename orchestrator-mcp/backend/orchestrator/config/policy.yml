@@ -1,0 +1,11 @@
+tenancy:
+  default_role: "viewer"
+  roles:
+    viewer:
+      allow_tools: ["jira.search_*", "echo"]
+      deny_tools: ["outlook.send_mail"]
+    editor:
+      allow_tools: ["*"]
+guards:
+  jira.search_issues:
+    required_args: ["jql"]

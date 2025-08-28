@@ -1,0 +1,3 @@
+node_modules/
+audit.db
+__pycache__/
